@@ -266,7 +266,7 @@ Update:
 return
 
 Patch:
-if WinExist("ahk_exe Borderlands2.exe"){
+if WinExist("ahk_exe Borderlands2.exe") || WinExist("ahk_exe BorderlandsPreSequel.exe"){
 	WinActivate
 
 	Send, ~					;Default key to open console is ~
@@ -298,7 +298,7 @@ return
 Reload:
 Gui, Submit, NoHide ; Save the values of the radio buttons.
 if (Radio = 1){
-    if WinExist("ahk_exe Borderlands2.exe"){
+    if WinExist("ahk_exe Borderlands2.exe") || WinExist("ahk_exe BorderlandsPreSequel.exe"){
 		WinActivate
 		Send, {ESCAPE}
 		sleep 50
@@ -387,7 +387,7 @@ ExitApp
 
 ;This is for starting the patch
 F5::
-if WinExist("ahk_exe Borderlands2.exe"){
+if WinExist("ahk_exe Borderlands2.exe") || WinExist("ahk_exe BorderlandsPreSequel.exe"){
 	WinActivate
 
 	Send, ~					;Default key to open console is ~
@@ -416,7 +416,7 @@ if WinExist("ahk_exe Borderlands2.exe"){
 return					;End of F6 hotkey
 
 F7::
-if WinExist("ahk_exe Borderlands2.exe"){
+if WinExist("ahk_exe Borderlands2.exe") || WinExist("ahk_exe BorderlandsPreSequel.exe"){
 	WinActivate
 	Send, {ESCAPE}
 	sleep 50
