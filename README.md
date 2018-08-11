@@ -1,8 +1,9 @@
-# BL2 Helper
+# Borderlands Helper
 
 ## Introduction
 
-> Got tired of execing the community patch so that is where this all started. It has evolved over time to include farming reset hotkeys, a colorblind fix key, and a tracker and logger for farming runs. 
+> Got tired of execing the community patch so that is where this all started. It has evolved over time to include farming reset hotkeys, a colorblind fix key, and a tracker and logger for farming runs.
+> Only exec patch and normal reload work for TPS as of now 
 
 ![Main](https://i.imgur.com/SXSdEbx.png)
 
